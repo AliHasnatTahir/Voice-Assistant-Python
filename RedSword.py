@@ -27,10 +27,10 @@ import requests
 
 
 
-api_key = "46aa6862ecbf867fb74ed0f2fb590fd6"
-account_sid = "ACf5a1538ff0a529f02bce0c5a376f727f"
-auth_token = "d429f578fe7315fc23e535a80337eb4f"
-openai.api_key = "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"
+api_key = "YOUR API KEY"
+account_sid = "YOUR ACCOUNT_SID"
+auth_token = "YOUR AUTH_TOKEN"
+openai.api_key = "YOUR API KEY"
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -58,7 +58,7 @@ def command():
 
 
 def vosk():
-    model = Model("C:\\Users\\aliha\\Documents\\Python Projects\\Voice Assistant\\Vosk\\vosk-model-small-en-us-0.15")
+    model = Model("Path to where your model is placed")
     recognizer = KaldiRecognizer(model, 16000)
 
     mic = pyaudio.PyAudio()
