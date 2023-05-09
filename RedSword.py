@@ -138,7 +138,7 @@ def msg_send():
                 client = Client(account_sid, auth_token)
                 message = client.messages.create(
                 body=msg,
-                from_="+19593350437",
+                from_="YOUR TWILLIO NUMBER",
                 to=number
                 )
                 speak("Message successfully sent")
