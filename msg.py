@@ -2,8 +2,8 @@ from recognize import speak, command
 import re
 from twilio.rest import Client
 
-account_sid = "ACf5a1538ff0a529f02bce0c5a376f727f"
-auth_token = "d429f578fe7315fc23e535a80337eb4f"
+account_sid = "YOUR'S ACCOUNT SID"
+auth_token = "YOUR'S AUTH_TOKEN"
 
 
 def msg_send():
