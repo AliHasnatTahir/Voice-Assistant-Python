@@ -3,7 +3,7 @@ import requests
 from recognize import speak
 
 
-api_key = "46aa6862ecbf867fb74ed0f2fb590fd6"
+api_key = "YOUR'S WEATHER API KEY"
 
 
 def get_myweather():
