@@ -13,12 +13,16 @@ voice assistant also can control the brightness, volume, mute, unmute.
 also open the weather which is used by the api.
 Also store the all the Errors in the excel file with time.
 this voice assistant also use the face recognition and can add the new user by saying "Add new User".
+Voice assistant also use the TWILLIO api to send the msg so get yours api key from twillio.
 
 
 
 Firstly you have to install these libraries
 
 use the voice assistant by running the RedSword.py
+
+You have to download the vosk model of speech recognition and extract it in the Vosk folder and enter the path in the recognize.py file under the vosk() function.
+
 
 import pyttsx3
 import speech_recognition as sr
