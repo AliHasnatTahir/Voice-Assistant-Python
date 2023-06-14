@@ -9,7 +9,7 @@ import webbrowser
 import csv
 
 
-openai.api_key = "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"
+openai.api_key = "YOUR'S API KEY HERE"
 
 
 def get_url(query):
